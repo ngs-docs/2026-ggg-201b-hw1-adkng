@@ -1,0 +1,16 @@
+1. Which variants are present in which samples?
+In SRR2584405_1, there are 42 total variants. 41 of them are SNPs, 1 of them is an indel.
+In SRR2584857_1, there are 5 total variants. 4 of them are SNPs, 1 of them is an indel.
+In SRR2584403_1, there are 2 total variants. Both of them are SNPs.
+In SRR2584404_1, there are 4 total variants. 3 of them are SNPs, 1 of them is an indel.
+
+
+2. Which variants are shared between two or more samples? (*What are the physical locations of the different variants, and are they shared?)
+There is a shared variant at POS 4141016 for SRR2584404_1 and SRR2584403_1 where the reference C was changed to an A.
+There is also a shared variant at POS 1329520 for SRR2584404_1 and SRR2584403_1 where the reference C was changed to a G.
+
+3. Are there any variants that stand out in terms of their likely biological impact?
+SRR2584405_1 has a very large indel variant at POS 2103887.
+SRR2584857_1 also has a large indel variant as POS 4530767
+I think these two are likely to have large biological impacts because of their large sizes.
+SRR2584404_1 has a comparably smaller indel variant as POS 806308, so it is interesting to note but likely won't have a significant biological impact.
